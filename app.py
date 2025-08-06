@@ -14,9 +14,14 @@ db.init_app(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = "login"
-
+# Loads user information from the database based on user_id
+@login_manager.user_loader
 def load_user(user_id):  
-    return User.query.get(int(user_id))  
+    return User.query.get(int(user_id)) 
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 # Register a new user; show sign-up form (GET) or process form submission (POST)
 @app.route('/register', methods=['GET', 'POST'])
@@ -47,7 +52,7 @@ def login():
             login_user(user)
             return redirect(url_for('dashboard'))
         
-        return 'The username and/or password is incorrect.  Please try again.'
+        return render_template('login.html', error='Invalid username or password')
     
     return render_template('login.html')
 

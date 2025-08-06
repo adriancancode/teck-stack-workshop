@@ -3,14 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tech Stack Demo  |  Dashboard</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     </head>
     <body>
-        <h1>Congrats!</h1>
-        <h2>You have been logged in.</h2>
-        <a href="{{ url_for('logout') }}">Logout</a>
+        <h1>Welcome to the Tech Stack Demo!</h1>
+        <h2>Login or Register to continue.</h2>
+        <p>
+            <a href="{{ url_for('login') }}">Login</a> |
+            <a href="{{ url_for('register') }}">Register</a>
+        </p>
+        
+        <script src="" async defer></script>
     </body>
 </html>
