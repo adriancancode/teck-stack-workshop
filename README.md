@@ -6,7 +6,7 @@ For the Tech Stack Workshop, hosted by Adrian Vazquez
 git clone https://github.com/adriancancode/teck-stack-workshop.git
 cd teck-stack-workshop
 ```
-### 2. INstall dependencies
+### 2. Install dependencies
  ======
  HOW TO INSTALL PYTHON (Mac)
 =======
