@@ -19,9 +19,9 @@ cd teck-stack-workshop
    python3 --version
 
 
-=============================
+=======
  HOW TO INSTALL PYTHON (Windows)
-=============================
+=======
 1. Go to: https://www.python.org/downloads/windows/
 2. Download the latest Python installer (e.g., "Python 3.x.x").
 3. Run the installer and:
@@ -32,9 +32,9 @@ cd teck-stack-workshop
    python --version
 
 
-=============================
+======
  CHECK IF PYTHON IS INSTALLED
-=============================
+======
 On Mac (Terminal):
    python3 --version
 
