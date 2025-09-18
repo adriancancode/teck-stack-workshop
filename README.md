@@ -7,9 +7,9 @@ git clone https://github.com/adriancancode/teck-stack-workshop.git
 cd teck-stack-workshop
 ```
 ### 2. INstall dependencies
- =============================
+ ======
  HOW TO INSTALL PYTHON (Mac)
-=============================
+=======
 1. Open the Terminal (search for "Terminal" in Spotlight).
 2. Install Homebrew if you don’t already have it:
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
